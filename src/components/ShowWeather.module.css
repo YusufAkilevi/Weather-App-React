@@ -1,0 +1,27 @@
+.weather {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.today {
+  border: 1px solid rgba(0, 0, 0, 0.184);
+  background-color: rgb(236, 236, 236);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.weather-cart p {
+  margin: 0;
+}
+.temps {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.day {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+.min {
+  color: rgba(0, 0, 0, 0.5);
+}

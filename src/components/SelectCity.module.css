@@ -1,0 +1,9 @@
+.select-city {
+  background-color: #e7f5ff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.select-city select {
+  padding: 0.3rem 0.6rem;
+}
